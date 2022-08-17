@@ -1,7 +1,11 @@
 "use strict";
 
 $(function () {
-  console.log('Hello Bootstrap5');
+  if (location.pathname == '/index.html') {
+    $('#assignment').addClass('active');
+  } else if (location.pathname == '/admin.html') {
+    $('#admin').addClass('active');
+  }
 });
 $(document).ready(function () {
   $('.navbar-side-link').click(function (e) {

@@ -39,7 +39,7 @@
                 </a>
               </li>
               <li class="fw-bold lh-1">
-                <a href="./index.html" class="navbar-side-link text-decoration-none py-1 ps-8 mb-4 active">
+                <a href="./index.html" id="assignment" class="navbar-side-link text-decoration-none py-1 ps-8 mb-4">
                   <span class="material-icons align-middle">assignment</span>
                   Assignment
                 </a>
@@ -51,7 +51,7 @@
                 </a>
               </li>
               <li class="fw-bold lh-1">
-                <a href="./admin.html" class="navbar-side-link text-decoration-none py-1 ps-8 mb-4">
+                <a href="./admin.html" id="admin" class="navbar-side-link text-decoration-none py-1 ps-8 mb-4">
                   <span class="material-icons align-middle">supervisor_account</span>
                   Admin
                 </a>
@@ -197,9 +197,11 @@
             <thead>
                 <tr>
                     <th scope="col">ID 
-                        <span class="material-icons fs-m align-middle text-primary">
-                        arrow_downward
-                        </span>
+                        <a href="#" class="d-inline-block">
+                            <span class="material-icons fs-m align-middle text-primary">
+                            arrow_downward
+                            </span>
+                        </a>
                     </th>
                     <th scope="col">Name</th>
                     <th scope="col">Email</th>
@@ -380,12 +382,12 @@
                     <td>zaina.goldsmith@mail.com</td>
                     <td>Yes</td>
                     <th class="text-end">
-                        <a href="#" class="d-inline-block me-6">
+                        <a href="#" class="d-inline-block me-6" data-bs-toggle="modal" data-bs-target="#viewModal">
                             <span class="material-icons align-middle">
                                 visibility
                             </span>
                         </a>
-                        <a href="#" class="d-inline-block">
+                        <a href="#" class="d-inline-block" data-bs-toggle="modal" data-bs-target="#editModal">
                             <span class="material-icons align-middle">
                                 edit
                             </span>
@@ -398,12 +400,12 @@
                     <td>mahima.lopez@mail.com</td>
                     <td>Yes</td>
                     <th class="text-end">
-                        <a href="#" class="d-inline-block me-6">
+                        <a href="#" class="d-inline-block me-6" data-bs-toggle="modal" data-bs-target="#viewModal">
                             <span class="material-icons align-middle">
                                 visibility
                             </span>
                         </a>
-                        <a href="#" class="d-inline-block">
+                        <a href="#" class="d-inline-block" data-bs-toggle="modal" data-bs-target="#editModal">
                             <span class="material-icons align-middle">
                                 edit
                             </span>
@@ -416,12 +418,12 @@
                     <td>pharrell.murray@mail.com</td>
                     <td>Yes</td>
                     <th class="text-end">
-                        <a href="#" class="d-inline-block me-6">
+                        <a href="#" class="d-inline-block me-6" data-bs-toggle="modal" data-bs-target="#viewModal">
                             <span class="material-icons align-middle">
                                 visibility
                             </span>
                         </a>
-                        <a href="#" class="d-inline-block">
+                        <a href="#" class="d-inline-block" data-bs-toggle="modal" data-bs-target="#editModal">
                             <span class="material-icons align-middle">
                                 edit
                             </span>
@@ -434,12 +436,12 @@
                     <td>annika.mcbride@mail.com</td>
                     <td>Yes</td>
                     <th class="text-end">
-                        <a href="#" class="d-inline-block me-6">
+                        <a href="#" class="d-inline-block me-6" data-bs-toggle="modal" data-bs-target="#viewModal">
                             <span class="material-icons align-middle">
                                 visibility
                             </span>
                         </a>
-                        <a href="#" class="d-inline-block">
+                        <a href="#" class="d-inline-block" data-bs-toggle="modal" data-bs-target="#editModal">
                             <span class="material-icons align-middle">
                                 edit
                             </span>
@@ -452,12 +454,12 @@
                     <td>fatimah.clark@mail.com</td>
                     <td>Yes</td>
                     <th class="text-end">
-                        <a href="#" class="d-inline-block me-6">
+                        <a href="#" class="d-inline-block me-6" data-bs-toggle="modal" data-bs-target="#viewModal">
                             <span class="material-icons align-middle">
                                 visibility
                             </span>
                         </a>
-                        <a href="#" class="d-inline-block">
+                        <a href="#" class="d-inline-block" data-bs-toggle="modal" data-bs-target="#editModal">
                             <span class="material-icons align-middle">
                                 edit
                             </span>
@@ -470,12 +472,12 @@
                     <td>klaudia.rhodes@mail.com</td>
                     <td>Yes</td>
                     <th class="text-end">
-                        <a href="#" class="d-inline-block me-6">
+                        <a href="#" class="d-inline-block me-6" data-bs-toggle="modal" data-bs-target="#viewModal">
                             <span class="material-icons align-middle">
                                 visibility
                             </span>
                         </a>
-                        <a href="#" class="d-inline-block">
+                        <a href="#" class="d-inline-block" data-bs-toggle="modal" data-bs-target="#editModal">
                             <span class="material-icons align-middle">
                                 edit
                             </span>
@@ -488,12 +490,12 @@
                     <td>tillie.lucero@mail.com</td>
                     <td>Yes</td>
                     <th class="text-end">
-                        <a href="#" class="d-inline-block me-6">
+                        <a href="#" class="d-inline-block me-6" data-bs-toggle="modal" data-bs-target="#viewModal">
                             <span class="material-icons align-middle">
                                 visibility
                             </span>
                         </a>
-                        <a href="#" class="d-inline-block">
+                        <a href="#" class="d-inline-block" data-bs-toggle="modal" data-bs-target="#editModal">
                             <span class="material-icons align-middle">
                                 edit
                             </span>
@@ -506,12 +508,12 @@
                     <td>sabrina.stephenson@mail.com</td>
                     <td>Yes</td>
                     <th class="text-end">
-                        <a href="#" class="d-inline-block me-6">
+                        <a href="#" class="d-inline-block me-6" data-bs-toggle="modal" data-bs-target="#viewModal">
                             <span class="material-icons align-middle">
                                 visibility
                             </span>
                         </a>
-                        <a href="#" class="d-inline-block">
+                        <a href="#" class="d-inline-block" data-bs-toggle="modal" data-bs-target="#editModal">
                             <span class="material-icons align-middle">
                                 edit
                             </span>
@@ -524,12 +526,12 @@
                     <td>annie.smith@mail.com</td>
                     <td>Yes</td>
                     <th class="text-end">
-                        <a href="#" class="d-inline-block me-6">
+                        <a href="#" class="d-inline-block me-6" data-bs-toggle="modal" data-bs-target="#viewModal">
                             <span class="material-icons align-middle">
                                 visibility
                             </span>
                         </a>
-                        <a href="#" class="d-inline-block">
+                        <a href="#" class="d-inline-block" data-bs-toggle="modal" data-bs-target="#editModal">
                             <span class="material-icons align-middle">
                                 edit
                             </span>
