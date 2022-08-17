@@ -1,9 +1,9 @@
 "use strict";
 
 $(function () {
-  if (location.pathname == '/index.html') {
+  if (location.pathname == '/webLayoutTraining-week5/index.html') {
     $('#assignment').addClass('active');
-  } else if (location.pathname == '/admin.html') {
+  } else if (location.pathname == '/webLayoutTraining-week5/admin.html') {
     $('#admin').addClass('active');
   }
 });
