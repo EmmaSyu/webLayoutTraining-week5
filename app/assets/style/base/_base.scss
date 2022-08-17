@@ -1,0 +1,20 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    display: block;
+    color: $dark;
+}
+
+code {
+    color: $primary;
+    font-family: $font-family-monospace;
+    background-color: $light;
+}
+
+.container {
+    padding-left: 32px;
+    padding-right: 32px;
+}

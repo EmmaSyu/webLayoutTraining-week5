@@ -1,0 +1,28 @@
+.nav-aside {
+    min-width: 296px;
+
+    li .active {
+        color: $primary;
+    }
+
+    li .active::before {
+        content: "";
+        width: 4px;
+        height: 32px;
+        background: $primary;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: -32px;
+        margin-right: 24px;
+        margin-top: -4px;
+        margin-bottom: -4px;
+    }
+
+    .navbar-side-link {
+        color: $dark;
+
+        &:hover {
+            background-color: $gray-400;
+        }
+    }
+}

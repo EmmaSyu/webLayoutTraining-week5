@@ -1,0 +1,12 @@
+.table> thead > :first-child > * {
+    padding-bottom: 0.25rem;
+}
+
+.table> tbody > * > * {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.table {
+    margin-bottom: 4rem;
+}

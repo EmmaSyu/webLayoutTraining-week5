@@ -1,0 +1,20 @@
+.list-group-item.active {
+  color: $dark;
+  background-color: $light;
+  border-color: $gray-400;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+}
+
+.ck-editor__editable[role="textbox"] {
+  /* editing area */
+  min-height: 265px;
+
+  p {
+    color: $gray-400;
+  }
+
+}
