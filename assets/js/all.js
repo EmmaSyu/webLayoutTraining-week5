@@ -1,7 +1,7 @@
 "use strict";
 
 $(function () {
-  if (location.href == 'https://emmasyu.github.io/webLayoutTraining-week5/index.html') {
+  if (location.href == 'https://emmasyu.github.io/webLayoutTraining-week5/index.html' || location.href == 'https://emmasyu.github.io/webLayoutTraining-week5/') {
     $('#assignment').addClass('active');
   } else if (location.href == 'https://emmasyu.github.io/webLayoutTraining-week5/admin.html') {
     $('#admin').addClass('active');
